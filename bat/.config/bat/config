@@ -1,0 +1,3 @@
+# BEGIN ANSIBLE MANAGED BLOCK - Theme
+--theme="Catppuccin Mocha"
+# END ANSIBLE MANAGED BLOCK - Theme
