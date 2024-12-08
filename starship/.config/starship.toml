@@ -1,6 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = '$all$aws$gcloud$azure$kubernetes$line_break$jobs$battery$time$status$os$shell$character '
+format = '$all$line_break$jobs$battery$time$status$os$shell$character '
+right_format = '$aws$gcloud$azure$kubernetes'
 
 add_newline = true
 
