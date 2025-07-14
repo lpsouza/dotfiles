@@ -1,0 +1,6 @@
+# Avoid tmux plugins
+tmux/.tmux/plugins
+
+# Avoid mc filepos and history
+mc/.local/share/mc/filepos
+mc/.local/share/mc/history
