@@ -1,0 +1,6 @@
+[submodule "mc/.local/share/mc/skins/mc"]
+	path = mc/.local/share/mc/skins/mc
+	url = https://github.com/catppuccin/mc
+[submodule "tmux/.tmux/plugins/tpm"]
+	path = tmux/.tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
