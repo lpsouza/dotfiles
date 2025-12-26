@@ -28,3 +28,8 @@ source $ZSH/oh-my-zsh.sh
 
 # --- Prompt (starship) ---
 eval "$(starship init zsh)"
+
+# --- NVM (Node Version Manager) ---
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
