@@ -87,7 +87,7 @@ skin=catppuccin
 
 [Layout]
 output_lines=0
-left_panel_size=118
+left_panel_size=103
 top_panel_size=13
 message_visible=true
 keybar_visible=true
