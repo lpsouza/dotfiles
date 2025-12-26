@@ -1,0 +1,21 @@
+theme = "catppuccin-mocha"
+
+[fonts]
+size = 17
+
+[window]
+opacity = 0.8
+decorations = "enabled"
+blur = true
+width=1200
+height=800
+
+[navigation]
+mode = "TopTab"
+unfocused-split-opacity = 0.5
+
+#[renderer]
+#filters = ["NewPixieCrt"]
+
+[bindings]
+keys = []
