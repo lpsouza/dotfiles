@@ -8,4 +8,23 @@ config.window_background_opacity = 0.75
 config.tab_bar_at_bottom = true
 config.hide_tab_bar_if_only_one_tab = true
 
+config.keys = {
+  {
+    key = '_',
+    mods = 'CTRL|SHIFT|ALT',
+    action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' }
+  },
+  {
+    key = '|',
+    mods = 'CTRL|SHIFT|ALT',
+    action = wezterm.action.SplitHorizontal { domain = 'CurrentPaneDomain' }
+  },
+  {
+    
+    key = 'a',
+    mods = 'CTRL',
+    action = wezterm.action.PaneSelect { alphabet = '1234567890' }
+  }
+}
+
 return config
