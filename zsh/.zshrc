@@ -23,9 +23,10 @@ fi
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="kafeitu"
 DISABLE_AUTO_TITLE="true"
+ZSH_DOTENV_PROMPT=false
 
 # --- Plugins ---
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions dotenv)
 
 # --- Source Oh My Zsh ---
 source $ZSH/oh-my-zsh.sh
