@@ -1,5 +1,8 @@
 # My Zsh configuration file
 
+# -- Kiro CLI pre block - Keep at the top of this file --
+[[ -f "${HOME}/.local/share/kiro-cli/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/.local/share/kiro-cli/shell/zshrc.pre.zsh"
+
 # --- General environment variables ---
 [ -f "$HOME/.env" ] && source "$HOME/.env"
 
@@ -38,6 +41,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-
-# Added by Antigravity CLI installer
-export PATH="/home/lpsouza/.local/bin:$PATH"
+# -- Kiro CLI post block - Keep at the bottom of this file --
+[[ -f "${HOME}/.local/share/kiro-cli/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/.local/share/kiro-cli/shell/zshrc.post.zsh"
